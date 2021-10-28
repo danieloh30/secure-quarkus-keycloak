@@ -21,5 +21,5 @@ public class UsersResource {
     public User me() {
         return new User(identity);
     }
-
+    
 }

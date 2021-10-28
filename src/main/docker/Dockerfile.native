@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/secure-quarkus .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/secure-quarkus-keycloak .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/secure-quarkus
+# docker run -i --rm -p 8080:8080 quarkus/secure-quarkus-keycloak
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.4
